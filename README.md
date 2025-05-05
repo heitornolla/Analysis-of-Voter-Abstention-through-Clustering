@@ -37,3 +37,11 @@ Data preprocessing, encoding, and normalization techniques are applied to prepar
 # **Future Works**
 
 This project is still being developed and will be updated.
+
+# **Technologies Used**
+
+Python 3.12.1
+
+Pandas for Data Cleaning
+
+Scikit-learn for Clustering
