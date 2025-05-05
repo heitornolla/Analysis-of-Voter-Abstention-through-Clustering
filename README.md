@@ -1,9 +1,8 @@
 # **Analysis of Voter Abstention on Brazil's Presidential Elections through Data Clustering**
 
-**Disclaimer:** _This is a personal project intended for educational purposes only_
-
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/heitornolla/voter-absention-clustering/blob/main/jupyter-notebook/notebook.ipynb)
+
+**Disclaimer:** _This is a personal project intended for educational purposes only_
 
 This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. 
 
