@@ -4,9 +4,7 @@
 
 **Disclaimer:** _This is a personal project intended for educational purposes only_
 
-This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. 
-
-Using clustering techniques, we aim to uncover patterns in voter abstention across demographic and geographic groups.
+This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. Using clustering techniques, we aim to uncover patterns in voter abstention across demographic and geographic groups.
 
 # Overview
 
@@ -26,12 +24,11 @@ Data preprocessing, encoding, and normalization techniques are applied to prepar
    - Standard scaling of numeric features.
 
 ## 3. **Clustering**
-   - Apply KMeans clustering with 4 clusters.
-   - Use PCA for 2D visualization of cluster distribution.
+   - Apply Elbow Method to understand optimal amount of clusters
+   - Apply KMeans clustering with the Elbow Method's output.
 
 ## 4. **Cluster Analysis**
    - Evaluate and interpret each cluster based on feature distributions.
-   - Analyze average values and categorical proportions per cluster.
 
 
 # **Future Works**
