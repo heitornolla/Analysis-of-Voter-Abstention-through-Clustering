@@ -4,7 +4,7 @@
 
 **Disclaimer:** _This is a personal project intended for educational purposes only_
 
-This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. Using clustering techniques, we aim to uncover patterns in voter abstention across demographic and geographic groups.
+This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. Using clustering techniques, it seeks to identify behavioral patterns in abstention reasons across demographic and regional variables.
 
 # Overview
 
