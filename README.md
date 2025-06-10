@@ -21,7 +21,6 @@ The project performs data preprocessing and cleaning, transforming it for machin
 ## 2. **Encoding & Scaling**
    - Ordinal encoding of ordered categories.
    - One-hot encoding of nominal categorical variables.
-   - Standard scaling of numeric features.
 
 ## 3. **Clustering**
    - Apply Elbow Method to understand optimal amount of clusters
