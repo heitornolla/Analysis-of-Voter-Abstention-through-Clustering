@@ -8,7 +8,7 @@ This project performs an unsupervised learning analysis on official voter absten
 
 # Overview
 
-Data preprocessing, encoding, and normalization techniques are applied to prepare the dataset, followed by clustering using K-Means and visualization with PCA. 
+The project performs data preprocessing and cleaning, transforming it for machine learning. It then applies the K-Prototypes clustering algorithm to discover hidden structures in the data. Visualizations are shown to help interpret the results and understand the composition of the identified clusters.
 
 # Project Steps
 
