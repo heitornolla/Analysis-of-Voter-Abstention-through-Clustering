@@ -13,11 +13,11 @@ The project performs data preprocessing and cleaning, transforming it for machin
 # Project Steps
 
 ## 1. **Data Loading & Cleaning**
-   - Load .csv dataset.
-   - Drop irrelevant columns.
-   - Map binary values to numeric format.
-   - Handle unknown or missing values.
-
+   - Load the .csv dataset containing official voter justification records.
+   - Drop irrelevant or uniform columns (e.g., protocol numbers, identical values).
+   - Map binary values (SIM/NAO) to numeric format.
+   - Handle missing or ambiguous values like "NAO INFORMADO".
+   
 ## 2. **Encoding & Scaling**
    - Ordinal encoding of ordered categories.
    - One-hot encoding of nominal categorical variables.
