@@ -24,20 +24,12 @@ The project performs data preprocessing and cleaning, transforming it for machin
 
 ## 3. **Clustering**
    - Apply Elbow Method to understand optimal amount of clusters
-   - Apply KMeans clustering with the Elbow Method's output.
+   - KMeans was originally used, but later replaced for KPrototypes.
 
 ## 4. **Cluster Analysis**
    - Evaluate and interpret each cluster based on feature distributions.
 
 
-# **Future Works**
-
-This project is still being developed and will be updated.
-
 # **Technologies Used**
 
-Python 3.12.1
-
-Pandas for Data Cleaning
-
-Scikit-learn for Clustering
+Pandas for Data Cleaning, Scikit-learn for Encoding and Clustering
