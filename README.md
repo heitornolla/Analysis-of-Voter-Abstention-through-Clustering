@@ -34,4 +34,4 @@ The project performs data preprocessing and cleaning, transforming it for machin
 
 # **Technologies Used**
 
-Pandas for Data Cleaning, Scikit-learn for Encoding and Clustering
+Pandas for Data Cleaning, Scikit-learn for Encoding and Clustering, KModes for the final Clustering
