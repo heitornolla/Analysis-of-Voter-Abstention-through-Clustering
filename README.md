@@ -4,41 +4,34 @@
 
 **Disclaimer:** _This is a personal project intended for educational purposes only_
 
-This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. Using clustering techniques, we aim to uncover patterns in voter abstention across demographic and geographic groups.
+This project performs an unsupervised learning analysis on official voter abstention justification data from Brazilian elections. Using clustering techniques, it seeks to identify behavioral patterns in abstention reasons across demographic and regional variables. You can read a paper on the work and our findings here (available only in PT-BR):
+
+[![Read in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-brightgreen)](https://www.overleaf.com/read/pzbdxgccczgt#3ee736)
 
 # Overview
 
-Data preprocessing, encoding, and normalization techniques are applied to prepare the dataset, followed by clustering using K-Means and visualization with PCA. 
+The project performs data preprocessing and cleaning, transforming it for machine learning. It then applies the K-Prototypes clustering algorithm to discover hidden structures in the data. Visualizations are shown to help interpret the results and understand the composition of the identified clusters.
 
 # Project Steps
 
 ## 1. **Data Loading & Cleaning**
-   - Load .csv dataset.
-   - Drop irrelevant columns.
-   - Map binary values to numeric format.
-   - Handle unknown or missing values.
-
+   - Load the .csv dataset containing official voter justification records.
+   - Drop irrelevant or uniform columns (e.g., protocol numbers, identical values).
+   - Map binary values (SIM/NAO) to numeric format.
+   - Handle missing or ambiguous values like "NAO INFORMADO".
+   
 ## 2. **Encoding & Scaling**
    - Ordinal encoding of ordered categories.
    - One-hot encoding of nominal categorical variables.
-   - Standard scaling of numeric features.
 
 ## 3. **Clustering**
    - Apply Elbow Method to understand optimal amount of clusters
-   - Apply KMeans clustering with the Elbow Method's output.
+   - KMeans was originally used, but later replaced for KPrototypes.
 
 ## 4. **Cluster Analysis**
    - Evaluate and interpret each cluster based on feature distributions.
 
 
-# **Future Works**
-
-This project is still being developed and will be updated.
-
 # **Technologies Used**
 
-Python 3.12.1
-
-Pandas for Data Cleaning
-
-Scikit-learn for Clustering
+Pandas for Data Cleaning, Scikit-learn for Encoding and Clustering, KModes for the final Clustering
